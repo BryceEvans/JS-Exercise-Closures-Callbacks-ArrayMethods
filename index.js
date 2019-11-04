@@ -209,9 +209,10 @@ function processDuplicateFree(/* CODE HERE ONLY AFTER COMPLETING ALL OTHER TASKS
 function getFullNames(runners) {
   /* CODE HERE */
   let runnerNames = []
+  // console.log("runnerNames empty array: ", runnerNames)
   runners.forEach(runner => 
     runnerNames.push(`${runner.last_name}, ${runner.first_name}`)
-  )
+    )
   // console.log(runnerNames)
   return runnerNames
 }
